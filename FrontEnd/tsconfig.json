@@ -1,5 +1,4 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.web.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
     "baseUrl": ".",
@@ -10,8 +9,6 @@
     "verbatimModuleSyntax": true
   },
   "references": [
-    {
-      "path": "./tsconfig.vite-config.json"
-    }
+    { "path": "./tsconfig.vite-config.json" }
   ]
 }
